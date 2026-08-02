@@ -1,0 +1,89 @@
+name: "LAIA — Produção de Conteúdo"
+code: "laia-conteudo"
+description: >
+  Camada 3 do sistema LAIA. Pega um item aprovado do calendário editorial e executa a linha
+  de montagem completa: pesquisa e inteligência (3.1), no mínimo 5 ângulos distintos (3.2),
+  3 ganchos por ângulo (3.3), o conteúdo escrito completo por formato e plataforma (3.4) e
+  os slides visuais renderizados na identidade da marca (3.5).
+icon: "🏭"
+version: "1.0.0"
+created: "2026-08-02"
+mode: "alta-performance"
+
+company: "_opensquad/_memory/company.md"
+preferences: "_opensquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+layer: "3-producao"
+phases: ["3.1", "3.2", "3.3", "3.4", "3.5"]
+cadence: "por conteúdo do calendário"
+requires:
+  - laia-perfil
+  - laia-calendario
+
+client_registry: "_opensquad/_memory/clientes"
+
+formats_supported:
+  - instagram-feed
+  - linkedin-post
+
+# Reels (roteiro + thumbnail) é o item 10 do roadmap — próxima fase.
+# O ponto de extensão está documentado em pipeline/data/domain-framework.md.
+formats_planned:
+  - instagram-reels
+
+skills:
+  - web_search
+  - web_fetch
+  - apify
+  - image-creator
+  - image-fetcher
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+agents:
+  - id: pesquisador
+    name: "Pedro Pesquisa"
+    icon: "🔍"
+    file: agents/pesquisador.agent.md
+
+  - id: angulista
+    name: "Ângela Ângulo"
+    icon: "🎯"
+    file: agents/angulista.agent.md
+
+  - id: ganchista
+    name: "Gabriel Gancho"
+    icon: "🪝"
+    file: agents/ganchista.agent.md
+
+  - id: criador-carrossel
+    name: "Carlos Carrossel"
+    icon: "✍️"
+    file: agents/criador-carrossel.agent.md
+
+  - id: criador-linkedin
+    name: "Luna LinkedIn"
+    icon: "💼"
+    file: agents/criador-linkedin.agent.md
+
+  - id: designer
+    name: "Davi Design"
+    icon: "🎨"
+    file: agents/designer.agent.md
+
+  - id: revisor
+    name: "Vera Veredito"
+    icon: "✅"
+    file: agents/revisor.agent.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

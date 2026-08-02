@@ -1,0 +1,88 @@
+name: "Pipeline — LAIA Calendário Editorial"
+version: "1.0.0"
+created: "2026-08-02"
+squad: "laia-calendario"
+
+description: >
+  Pesquisa mensal (tendências, sazonalidade, concorrentes e performance anterior) →
+  validação do foco → montagem do calendário com distribuição de funil → revisão →
+  aprovação → planilha de controle publicada no registro do cliente.
+
+mode: "alta-performance"
+max_review_cycles: 2
+
+steps:
+  - id: step-01
+    name: "Briefing do Mês"
+    type: checkpoint
+    file: steps/step-01-briefing-mes.md
+
+  - id: step-02
+    name: "Pesquisa Mensal"
+    type: agent
+    agent: pesquisador
+    tasks:
+      - analisar-performance
+      - pesquisar-contexto
+      - analisar-concorrentes
+    file: steps/step-02-pesquisa-mensal.md
+    depends_on: step-01
+
+  - id: step-03
+    name: "Validação da Pesquisa"
+    type: checkpoint
+    file: steps/step-03-validar-pesquisa.md
+    depends_on: step-02
+
+  - id: step-04
+    name: "Montagem do Calendário"
+    type: agent
+    agent: estrategista
+    tasks:
+      - distribuir-funil
+      - montar-calendario
+    file: steps/step-04-montar-calendario.md
+    depends_on: step-03
+
+  - id: step-05
+    name: "Revisão do Calendário"
+    type: agent
+    agent: revisor
+    tasks:
+      - revisar-calendario
+    file: steps/step-05-revisar-calendario.md
+    depends_on: step-04
+    on_reject: step-04
+
+  - id: step-06
+    name: "Aprovação do Calendário"
+    type: checkpoint
+    file: steps/step-06-aprovar-calendario.md
+    depends_on: step-05
+
+  - id: step-07
+    name: "Planilha de Controle e Publicação"
+    type: agent
+    agent: controlador
+    tasks:
+      - gerar-planilha
+      - publicar-calendario
+    file: steps/step-07-planilha-controle.md
+    depends_on: step-06
+
+checkpoints:
+  - step-01  # Cliente, mês de referência e foco estratégico
+  - step-03  # Validação da pesquisa antes de montar o calendário
+  - step-06  # Aprovação do calendário antes de gerar planilha e publicar
+
+output:
+  artifacts:
+    - output/briefing-mes.md
+    - output/feedback-brief.md
+    - output/pesquisa-mensal.md
+    - output/ajustes-pesquisa.md
+    - output/calendario.yaml
+    - output/calendario.md
+    - output/revisao-calendario.md
+    - output/controle.csv
+    - output/publicacao-report.md

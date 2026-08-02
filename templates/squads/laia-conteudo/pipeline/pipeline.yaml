@@ -1,0 +1,141 @@
+name: "Pipeline — LAIA Produção de Conteúdo"
+version: "1.0.0"
+created: "2026-08-02"
+squad: "laia-conteudo"
+
+description: >
+  Linha de montagem por conteúdo: pesquisa (3.1) → 5+ ângulos (3.2) → 3 ganchos por ângulo
+  (3.3) → conteúdo escrito por formato (3.4) → slides visuais (3.5) → revisão → entrega.
+  6 checkpoints garantem que o usuário decide cada bifurcação criativa.
+
+mode: "alta-performance"
+max_review_cycles: 2
+
+steps:
+  - id: step-01
+    name: "Seleção do Item"
+    type: checkpoint
+    file: steps/step-01-selecionar-item.md
+
+  - id: step-02
+    name: "Pesquisa e Inteligência"
+    type: agent
+    agent: pesquisador
+    tasks:
+      - pesquisar-fontes
+      - mapear-saturacao
+    file: steps/step-02-pesquisa.md
+    depends_on: step-01
+
+  - id: step-03
+    name: "Geração de Ângulos"
+    type: agent
+    agent: angulista
+    tasks:
+      - gerar-angulos
+    file: steps/step-03-gerar-angulos.md
+    depends_on: step-02
+
+  - id: step-04
+    name: "Seleção de Ângulos"
+    type: checkpoint
+    file: steps/step-04-selecionar-angulos.md
+    depends_on: step-03
+
+  - id: step-05
+    name: "Geração de Ganchos"
+    type: agent
+    agent: ganchista
+    tasks:
+      - gerar-ganchos
+    file: steps/step-05-gerar-ganchos.md
+    depends_on: step-04
+
+  - id: step-06
+    name: "Seleção de Ganchos"
+    type: checkpoint
+    file: steps/step-06-selecionar-ganchos.md
+    depends_on: step-05
+
+  - id: step-07
+    name: "Criação do Carrossel"
+    type: agent
+    agent: criador-carrossel
+    optional: true   # roda apenas se houver ângulo destinado a carrossel de Instagram
+    tasks:
+      - criar-carrossel
+    file: steps/step-07-criar-carrossel.md
+    depends_on: step-06
+
+  - id: step-08
+    name: "Criação do Post LinkedIn"
+    type: agent
+    agent: criador-linkedin
+    optional: true   # roda apenas se houver ângulo destinado a LinkedIn
+    tasks:
+      - criar-post-linkedin
+    file: steps/step-08-criar-linkedin.md
+    depends_on: step-06
+
+  - id: step-09
+    name: "Aprovação do Texto"
+    type: checkpoint
+    file: steps/step-09-aprovar-texto.md
+    depends_on: step-08
+
+  - id: step-10
+    name: "Criação Visual"
+    type: agent
+    agent: designer
+    tasks:
+      - definir-sistema-visual
+      - criar-slides-html
+      - renderizar
+    file: steps/step-10-criacao-visual.md
+    depends_on: step-09
+
+  - id: step-11
+    name: "Aprovação das Imagens"
+    type: checkpoint
+    file: steps/step-11-aprovar-imagens.md
+    depends_on: step-10
+
+  - id: step-12
+    name: "Revisão Final"
+    type: agent
+    agent: revisor
+    tasks:
+      - revisar-entrega
+    file: steps/step-12-revisao-final.md
+    depends_on: step-11
+    on_reject: step-07
+
+  - id: step-13
+    name: "Entrega e Atualização de Status"
+    type: checkpoint
+    file: steps/step-13-entrega.md
+    depends_on: step-12
+
+checkpoints:
+  - step-01  # Item do calendário a produzir
+  - step-04  # Seleção de ângulos (5+ apresentados)
+  - step-06  # Seleção de ganchos (3 por ângulo)
+  - step-09  # Aprovação do texto antes da criação visual
+  - step-11  # Aprovação das imagens
+  - step-13  # Entrega final e atualização da planilha
+
+output:
+  artifacts:
+    - output/briefing-item.md
+    - output/pesquisa.md
+    - output/angulos.yaml
+    - output/angulos-selecionados.yaml
+    - output/ganchos.yaml
+    - output/ganchos-selecionados.yaml
+    - output/carrossel.md
+    - output/linkedin.md
+    - output/sistema-visual.md
+    - output/slides/
+    - output/slides/rendered/
+    - output/revisao-final.md
+    - output/entrega.md

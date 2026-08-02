@@ -1,0 +1,5 @@
+id,name,icon,role,path,execution,skills
+pesquisador,Tiago Tendência,🔍,"Pesquisa tendências do nicho, datas sazonais e concorrentes, e analisa a performance do mês anterior",./agents/pesquisador.agent.md,subagent,"web_search,web_fetch,apify"
+estrategista,Estela Estratégia,🗓️,"Distribui os conteúdos pelo funil e monta o calendário editorial mensal com justificativa por item",./agents/estrategista.agent.md,inline,
+revisor,Vera Veredito,✅,"Audita o calendário contra distribuição de funil, variedade de formato e aderência ao perfil",./agents/revisor.agent.md,inline,
+controlador,Cláudia Controle,📋,Gera a planilha de controle mensal em CSV e publica o calendário no registro do cliente,./agents/controlador.agent.md,inline,

@@ -1,0 +1,57 @@
+name: "LAIA — Perfil do Cliente"
+code: "laia-perfil"
+description: >
+  Camada 1 do sistema LAIA de produção de conteúdo. Questionário inteligente que
+  coleta identidade, público-alvo, comunicação, objetivos e assets visuais de um
+  cliente, consolida tudo em um perfil estruturado (perfil.json + brand-book.md) e
+  publica no repositório de clientes. Roda uma vez por cliente e é atualizado
+  pontualmente quando algo muda.
+icon: "🧬"
+version: "1.0.0"
+created: "2026-08-02"
+mode: "alta-performance"
+
+company: "_opensquad/_memory/company.md"
+preferences: "_opensquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+layer: "1-configuracao"
+phase: "1.1"
+cadence: "uma vez por cliente (com atualizações pontuais)"
+consumers:
+  - laia-calendario
+  - laia-conteudo
+
+client_registry: "_opensquad/_memory/clientes"
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+
+agents:
+  - id: entrevistador
+    name: "Otávio Onboarding"
+    icon: "🎤"
+    file: agents/entrevistador.agent.md
+
+  - id: perfilador
+    name: "Priscila Perfil"
+    icon: "🗂️"
+    file: agents/perfilador.agent.md
+
+  - id: revisor
+    name: "Renata Revisão"
+    icon: "✅"
+    file: agents/revisor.agent.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

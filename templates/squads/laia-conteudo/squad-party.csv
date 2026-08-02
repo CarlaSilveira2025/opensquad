@@ -1,0 +1,8 @@
+id,name,icon,role,path,execution,skills
+pesquisador,Pedro Pesquisa,🔍,"Pesquisa fontes, dados e referências sobre o assunto e mapeia o que está saturado no tema",./agents/pesquisador.agent.md,subagent,"web_search,web_fetch,apify"
+angulista,Ângela Ângulo,🎯,Gera no mínimo 5 ângulos distintos sobre o mesmo assunto e classifica cada um por formato e provocação,./agents/angulista.agent.md,inline,
+ganchista,Gabriel Gancho,🪝,Cria 3 opções de gancho por ângulo aprovado com tipo e sugestão de abertura visual,./agents/ganchista.agent.md,inline,
+criador-carrossel,Carlos Carrossel,✍️,Escreve o carrossel completo de Instagram slide a slide com legenda e hashtags,./agents/criador-carrossel.agent.md,subagent,web_search
+criador-linkedin,Luna LinkedIn,💼,Escreve o post longo de LinkedIn com storytelling e gancho antes do ver mais,./agents/criador-linkedin.agent.md,subagent,web_search
+designer,Davi Design,🎨,Define o sistema visual do conteúdo e gera os slides em HTML/CSS renderizados como imagem,./agents/designer.agent.md,inline,"image-creator,image-fetcher"
+revisor,Vera Veredito,✅,Avalia copy e visual contra os critérios de qualidade e emite veredito com nota por eixo,./agents/revisor.agent.md,inline,
