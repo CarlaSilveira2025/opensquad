@@ -4,7 +4,8 @@
       "Read(//c/Users/renat/.claude/plugins//**)",
       "Read(//c/Users/renat/.claude/plugins/**)",
       "Read(//c/Users/renat/.claude/**)",
-      "Edit(/.claude/skills/opensquad-dev/**)"
+      "Edit(/.claude/skills/opensquad-dev/**)",
+      "mcp__Claude_Code_Remote__send_later"
     ]
   },
   "outputStyle": "default"
