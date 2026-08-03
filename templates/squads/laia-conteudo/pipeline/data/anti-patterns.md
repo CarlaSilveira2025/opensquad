@@ -138,7 +138,7 @@ parar e reportar.
 
 ### 5.3 Fonte pequena demais
 **Sintoma:** slide ilegível no feed; o carrossel inteiro é descartado.
-**Correção:** mínimo 32px em peça de 1080px.
+**Correção:** mínimo 34px em peça de 1080px.
 
 ### 5.4 Estilo variando entre slides
 **Sintoma:** o carrossel parece montado por pessoas diferentes.

@@ -30,7 +30,6 @@ Carregar antes de executar:
 - `squads/laia-conteudo/output/angulos-selecionados.yaml` — ângulo, resumo e risco
 - `squads/laia-conteudo/output/pesquisa.md` — dados com número e fonte
 - `squads/laia-conteudo/output/briefing-item.md` — etapa de funil e oferta, se de fundo
-- `squads/laia-conteudo/output/carrossel.md` — se existir, para garantir texto distinto
 - `_opensquad/_memory/clientes/{slug}/perfil.json` — tom, palavras, público
 - `squads/laia-conteudo/pipeline/data/tone-of-voice.md` — calibragem de registro
 

@@ -4,6 +4,7 @@ name: "Criação Visual"
 type: agent
 execution: inline
 agent: designer
+format: image-design
 tasks:
   - definir-sistema-visual
   - criar-slides-html
@@ -32,7 +33,7 @@ Carregar antes de executar:
 
 1. **Executar `definir-sistema-visual`.** Antes de qualquer slide, verificar que
    `visual.paleta` tem no mínimo 2 hex válidos. Se não tiver, **parar e reportar** — não
-   escolher cor. Definir papéis de cor, escala tipográfica (nada abaixo de 32px), grid e
+   escolher cor. Definir papéis de cor, escala tipográfica (nada abaixo de 34px), grid e
    tratamento por tipo de slide. Salvar em `squads/laia-conteudo/output/sistema-visual.md`.
 
 2. **Verificar os assets.** Conferir se o arquivo apontado por `visual.logo` existe. Se não
@@ -134,7 +135,7 @@ Rejeitar e refazer se qualquer uma for verdadeira:
 1. Alguma cor usada não vem de `visual.paleta` nem é neutro puro
 2. `visual.paleta` tem menos de 2 hex válidos e o step seguiu mesmo assim
 3. Alguma palavra do texto aprovado foi cortada, abreviada ou reescrita
-4. Alguma fonte está abaixo de 32px
+4. Alguma fonte está abaixo de 34px
 5. Algum HTML referencia recurso externo por URL
 6. Alguma imagem esperada não foi gerada, está em branco ou com dimensão errada
 7. Existe texto cortado ou transbordando em imagem entregue

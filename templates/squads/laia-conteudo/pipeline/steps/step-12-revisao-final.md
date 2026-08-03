@@ -7,7 +7,7 @@ agent: revisor
 tasks:
   - revisar-entrega
 depends_on: step-11
-on_reject: step-07
+on_reject: step-10   # defeito visual recicla so o designer; defeito de texto o revisor aponta para o step-07
 inputFile: squads/laia-conteudo/output/carrossel.md
 outputFile: squads/laia-conteudo/output/revisao-final.md
 ---
@@ -41,9 +41,13 @@ Carregar antes de executar:
 3. **Avaliar aderência ao perfil** com o `perfil.json` aberto: nenhuma palavra de
    `palavras_evitar`, tom compatível, cores das imagens dentro de `visual.paleta`.
 
-4. **Avaliar estrutura do formato** contra os limites: carrossel com 6-10 slides, ≤30
-   palavras por slide, reflexão antes do CTA, 5-15 hashtags; LinkedIn com gancho antes do
-   "ver mais", blocos ≤3 linhas, insight explícito, 3-5 hashtags.
+4. **Avaliar estrutura do formato** contra os limites, que vivem nos arquivos de formato do
+   framework — `_opensquad/core/best-practices/instagram-feed.md` e `linkedin-post.md`.
+   **Ler os dois antes de avaliar**; eles são a autoridade e prevalecem sobre qualquer
+   número citado aqui. Em resumo: carrossel com 8-10 slides, 40-80 palavras por slide em
+   duas camadas, formato canônico declarado, síntese antes do CTA, 5-15 hashtags;
+   LinkedIn com gancho antes do "ver mais", blocos ≤3 linhas, 3-5 insights, 3-5 hashtags,
+   sem link no corpo.
 
 5. **Avaliar execução visual** inspecionando as imagens: legibilidade, texto não cortado,
    consistência entre slides, dimensões corretas.
@@ -91,17 +95,17 @@ Carregar antes de executar:
 | Scroll-stop | 1,5 | 9 | Capa curta, contraintuitiva, alto contraste; gancho literal |
 | Aderência ao perfil | 1,0 | 9 | Tom didático e direto; nenhuma palavra proibida |
 | Veracidade | 1,0 | 9 | Os 2 dados com lastro; origem internacional declarada |
-| Estrutura do formato | 1,0 | 8 | 8 slides, reflexão presente; slide 7 com 34 palavras |
+| Estrutura do formato | 1,0 | 8 | 8 slides, síntese presente; slide 7 com 34 palavras (abaixo do piso de 40) |
 | Execução visual | 1,0 | 7 | Consistente e legível; slide 7 com texto perto da margem |
 
 **Cálculo:** (9×1,5 + 9 + 9 + 8 + 7) / 5,5 = **8,5**
 
 ## Problemas encontrados
 ### Slide 7 — eixo Estrutura do formato
-**Problema:** 34 palavras, acima do teto de 30. O CTA traz duas instruções competindo pela
-mesma atenção ("escreve num papel" e "salva esse carrossel").
-**Correção esperada:** manter apenas o "salva", que é a ação de maior valor no formato, e
-mover o exercício do papel para a legenda.
+**Problema:** 34 palavras, abaixo do piso de 40. O texto de apoio só reformula a headline
+em vez de acrescentar dado ou consequência — o slide fica raso.
+**Correção esperada:** expandir o apoio com o dado que sustenta a afirmação, chegando à
+faixa de 40 a 80 palavras sem alterar a headline.
 
 ### Slide 7 — eixo Execução visual
 **Problema:** o texto termina a 62px da margem inferior, contra os 96px do grid.

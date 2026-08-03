@@ -168,7 +168,7 @@ carrossel, mesmo assunto e ângulo diferente.
 | Texto secundário | #A0A0B8 | derivado do grafite |
 
 **Escala:** capa 96px · título 72px · corpo 46px · rodapé 34px — Inter
-**Grid:** 1080×1440, margem 96px, logo inferior direito 120px, numeração inferior esquerda
+**Grid:** 1080×1440, margem 96px, logo inferior direito 120px, sem contador de slide
 
 | Tipo de slide | Composição |
 |---|---|

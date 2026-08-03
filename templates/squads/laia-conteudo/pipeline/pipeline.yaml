@@ -108,7 +108,7 @@ steps:
       - revisar-entrega
     file: steps/step-12-revisao-final.md
     depends_on: step-11
-    on_reject: step-07
+    on_reject: step-10
 
   - id: step-13
     name: "Entrega e Atualização de Status"

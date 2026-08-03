@@ -34,10 +34,11 @@ entra sem nenhuma alteração.
 5. **Aplicar o tratamento do tipo de slide** definido no sistema visual: capa, número
    dominante, texto puro, reflexão, CTA.
 
-6. **Inserir logo e numeração** nas posições fixas definidas, quando aplicável. Se o arquivo
+6. **Inserir apenas o logo** na posição fixa definida, quando aplicável. Nunca incluir
+   contador de slide ("01/08"): o Instagram já mostra a navegação nativa do carrossel. Se o arquivo
    de logo não existir, omitir e registrar.
 
-7. **Conferir a legibilidade antes de fechar cada arquivo**: nenhuma fonte abaixo de 32px,
+7. **Conferir a legibilidade antes de fechar cada arquivo**: nenhuma fonte abaixo de 34px,
    contraste mantido, e nenhum bloco de texto encostando na margem.
 
 ## Output Format
@@ -66,7 +67,7 @@ Um arquivo HTML por slide, com esta estrutura:
 </head>
 <body>
   <div class="titulo">{texto exato aprovado}</div>
-  <div class="rodape">{numeração}</div>
+  <!-- sem contador de slide: o Instagram mostra navegação nativa -->
 </body>
 </html>
 ```
@@ -95,10 +96,6 @@ Um arquivo HTML por slide, com esta estrutura:
     line-height: 1.08; letter-spacing: -0.02em;
   }
   .destaque { color: #00D982; display: block; margin-top: 24px; }
-  .numeracao {
-    position: absolute; bottom: 96px; left: 96px;
-    font-size: 34px; font-weight: 500; color: #A0A0B8;
-  }
   .logo { position: absolute; bottom: 88px; right: 96px; width: 120px; }
 </style>
 </head>
@@ -107,7 +104,6 @@ Um arquivo HTML por slide, com esta estrutura:
     Você não tem problema de ferramenta.
     <span class="destaque">Tem problema de processo.</span>
   </div>
-  <div class="numeracao">01/08</div>
   <img class="logo" src="../../../../_opensquad/_memory/clientes/laia/assets/logo.png" alt="">
 </body>
 </html>
@@ -124,9 +120,9 @@ linha recebe o destaque em verde sinal conforme o sistema visual; nenhuma fonte 
 - [ ] Dimensões fixas corretas por plataforma
 - [ ] Texto aprovado presente sem nenhuma alteração
 - [ ] Apenas cores do sistema visual
-- [ ] Nenhuma fonte abaixo de 32px
+- [ ] Nenhuma fonte abaixo de 34px
 - [ ] `overflow: hidden` e margens respeitadas
-- [ ] Logo e numeração nas posições definidas, quando aplicável
+- [ ] Logo na posição definida, quando aplicável; nenhum contador de slide na imagem
 
 ## Veto Conditions
 
@@ -134,5 +130,5 @@ Rejeitar e refazer se:
 1. Alguma palavra do texto aprovado foi cortada, abreviada ou reescrita
 2. O HTML referencia recurso externo por URL
 3. Alguma cor fora do sistema visual foi usada
-4. Alguma fonte está abaixo de 32px
+4. Alguma fonte está abaixo de 34px
 5. As dimensões do `body` não correspondem à plataforma

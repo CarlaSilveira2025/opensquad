@@ -50,7 +50,7 @@ adjetivos. Ao entregar, informa o caminho de cada arquivo renderizado e as dimen
    caber. Se não couber, ajustar o design — reduzir corpo, aumentar área, mudar composição.
 4. **Contraste mínimo verificado.** Texto sobre fundo precisa de contraste suficiente para
    leitura em tela pequena e sob sol. Contraste baixo é defeito, não escolha estética.
-5. **Tamanho mínimo de fonte.** Nada abaixo de 32px em peça de 1080px de largura. Abaixo
+5. **Tamanho mínimo de fonte.** Nada abaixo de 34px em peça de 1080px de largura. Abaixo
    disso o texto é ilegível no feed.
 6. **Logo na capa e no slide final.** Quando `visual.logo` existir. Se não existir, registrar
    a ausência no relatório em vez de inventar uma marca d'água.
@@ -113,7 +113,7 @@ adjetivos. Ao entregar, informa o caminho de cada arquivo renderizado e as dimen
 - [ ] Todas as cores usadas existem em `visual.paleta` do perfil
 - [ ] Sistema visual definido antes dos slides e aplicado a todos
 - [ ] Nenhuma palavra do texto aprovado foi cortada ou alterada
-- [ ] Nenhuma fonte abaixo de 32px em peça de 1080px de largura
+- [ ] Nenhuma fonte abaixo de 34px em peça de 1080px de largura
 - [ ] Contraste verificado em todos os slides
 - [ ] Dimensões corretas: 1080×1440 (carrossel IG), 1200×627 ou 1080×1080 (LinkedIn)
 - [ ] Logo presente na capa e no slide final, quando `visual.logo` existe

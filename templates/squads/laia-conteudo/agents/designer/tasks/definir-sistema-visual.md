@@ -29,7 +29,7 @@ consistência — carrossel com slides visualmente diferentes parece amador.
    - Título de slide: 64-80px
    - Corpo: 40-52px
    - Legenda/rodapé: 32-36px (mínimo absoluto)
-   Nenhum tamanho abaixo de 32px.
+   Nenhum tamanho abaixo de 34px.
 
 4. **Definir o grid:** margem externa (mínimo 80px em peça de 1080px), alinhamento padrão e
    posição fixa do logo e do número do slide.
@@ -61,7 +61,6 @@ consistência — carrossel com slides visualmente diferentes parece amador.
 - Margem externa: {px}
 - Alinhamento: {padrão}
 - Logo: {posição e tamanho}
-- Numeração: {posição e formato}
 
 ## Tratamento por tipo de slide
 | Tipo | Composição |
@@ -106,7 +105,6 @@ consistência — carrossel com slides visualmente diferentes parece amador.
 - Margem externa: 96px em todos os lados
 - Alinhamento: texto à esquerda, bloco centralizado verticalmente
 - Logo: canto inferior direito, 120px de largura, apenas na capa e no slide final
-- Numeração: canto inferior esquerdo, formato "03/08", 34px, cor secundária
 
 ## Tratamento por tipo de slide
 | Tipo | Composição |
@@ -131,7 +129,7 @@ consistência — carrossel com slides visualmente diferentes parece amador.
 
 - [ ] Todas as cores vêm de `visual.paleta` (neutros puros permitidos)
 - [ ] Contraste fundo/texto avaliado explicitamente
-- [ ] Nenhum tamanho de fonte abaixo de 32px
+- [ ] Nenhum tamanho de fonte abaixo de 34px
 - [ ] Grid com viewport, margem, alinhamento e posições fixas
 - [ ] Tratamento definido para cada tipo de slide presente no carrossel
 - [ ] Existência do arquivo de logo verificada
@@ -142,5 +140,5 @@ consistência — carrossel com slides visualmente diferentes parece amador.
 Rejeitar e refazer se:
 1. Alguma cor usada não vem da paleta do perfil nem é neutro puro
 2. `visual.paleta` tem menos de 2 hex válidos e a task seguiu mesmo assim
-3. Algum tamanho de fonte está abaixo de 32px
+3. Algum tamanho de fonte está abaixo de 34px
 4. Alguma decisão está descrita por adjetivo em vez de valor

@@ -94,7 +94,7 @@ nota = (scroll_stop × 1,5 + aderencia + veracidade + estrutura + visual) / 5,5
 
 - [ ] Todas as cores de `visual.paleta` (neutros puros permitidos)
 - [ ] Sistema visual definido antes do primeiro slide
-- [ ] Nenhuma fonte abaixo de 32px
+- [ ] Nenhuma fonte abaixo de 34px
 - [ ] Margem externa ≥ 80px em peça de 1080px
 - [ ] Nenhuma palavra do texto aprovado alterada
 - [ ] HTML autocontido, sem referência de rede

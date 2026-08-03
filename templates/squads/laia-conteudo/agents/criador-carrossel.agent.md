@@ -20,7 +20,7 @@ tasks:
 
 Redator especializado em carrossel de Instagram. Recebe um ângulo e o gancho escolhido e
 entrega o carrossel completo: o texto exato de cada slide, a legenda com hashtags e a
-indicação de elemento visual por slide. Trabalha na estrutura de 6 a 10 slides — capa com o
+indicação de elemento visual por slide. Trabalha na estrutura de 8 a 10 slides — capa com o
 gancho, desenvolvimento com uma ideia por slide, CTA e assinatura. O que ele escreve vai
 literalmente para dentro da imagem, então cada palavra ocupa espaço físico e disputa
 legibilidade.

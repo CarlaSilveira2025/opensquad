@@ -31,8 +31,11 @@ exemplos concretos e as perguntas que o público realmente faz sobre o assunto.
 5. **Selecionar os dados âncora** — os 3 a 5 números mais fortes, candidatos a abrir o
    conteúdo. Priorizar o específico, o datado e o contraintuitivo.
 
-6. **Marcar a confiança de cada achado**: `ALTA` (fonte primária verificada), `MÉDIA` (fonte
-   secundária confiável), `BAIXA` (citação sem origem rastreada — usar com ressalva).
+6. **Marcar a confiança de cada achado** na mesma escala usada em todo o sistema LAIA —
+   número de fontes independentes que sustentam o achado: `ALTA` = 3 ou mais, `MÉDIA` = 2,
+   `BAIXA` = 1. Quando a única fonte for citação sem origem rastreada, é `BAIXA` e a
+   limitação vai declarada. A escala é a mesma do `laia-calendario`, para que "ALTA" queira
+   dizer a mesma coisa nos dois squads — o veto de `quality-criteria.md` depende disso.
 
 ## Output Format
 

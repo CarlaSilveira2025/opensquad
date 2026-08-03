@@ -138,7 +138,7 @@ CTA específico
 
 ### Limites duros
 
-- Fonte mínima: **32px** em peça de 1080px de largura
+- Fonte mínima: **34px** em peça de 1080px de largura
 - Margem externa mínima: **80px** em peça de 1080px
 - Cores: **exclusivamente** de `visual.paleta` (neutros puros permitidos)
 - HTML **autocontido** — nenhuma referência de rede

@@ -32,7 +32,6 @@ Carregar antes de executar:
 - `squads/laia-conteudo/output/briefing-item.md` — etapa de funil e oferta, se de fundo
 - `_opensquad/_memory/clientes/{slug}/perfil.json` — tom, palavras, dores, ofertas
 - `squads/laia-conteudo/pipeline/data/tone-of-voice.md` — calibragem de registro
-- `squads/laia-conteudo/pipeline/data/quality-criteria.md` — limites do formato
 
 O Pipeline Runner injeta automaticamente o formato `instagram-feed` de
 `_opensquad/core/best-practices/instagram-feed.md`.
