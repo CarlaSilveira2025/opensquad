@@ -44,7 +44,7 @@ Responda com o id (ex.: "3b") ou "3b, mas troca 'processo' por 'rotina'".
 1. Registrar o gancho escolhido por ângulo. Se o usuário pedir ajuste de palavra, aplicar o
    ajuste ao texto e gravar o **texto já ajustado** — é ele que vai literal ao conteúdo.
 2. Conferir que o texto ajustado ainda respeita os limites: 2 linhas visíveis e, no
-   LinkedIn, ~200 caracteres. Se estourar, avisar e pedir confirmação.
+   LinkedIn, ~210 caracteres. Se estourar, avisar e pedir confirmação.
 3. Escrever em `squads/laia-conteudo/output/ganchos-selecionados.yaml`:
 
 ```yaml

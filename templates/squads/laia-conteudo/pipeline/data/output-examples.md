@@ -10,71 +10,85 @@ Exemplos completos da entrega final. Referência de qualidade, nunca gabarito.
 problema de ferramenta" (provocação 4), gancho 3b.
 
 ```markdown
-## Slide 1 — Capa
-> Você não tem problema de ferramenta.
-> Tem problema de processo.
+**Formato:** Problema → Solução
 
-**Visual:** tipografia grande, 2ª linha em verde sinal sobre grafite, sem imagem
+## Slide 1 — Capa
+**Título:** Você não tem problema de ferramenta. Tem problema de processo.
+**Foto/fundo:** grafite sólido, sem imagem — só tipografia
+**Destaques:** "processo"
 **Palavras:** 11
 
-## Slide 2 — O dado
-> 4 em 10 empresas abandonam a automação nos primeiros 3 meses.
->
-> A ferramenta continua paga. Só ninguém usa.
+## Slide 2 — Problema
+**Headline:** 4 em 10 empresas abandonam a automação nos primeiros 3 meses.
+**Apoio:** A assinatura continua sendo debitada, o login continua ativo, e ninguém abre.
+O dinheiro não some de uma vez — some em parcelas que ninguém revisa. E quando alguém
+revisa, a conclusão errada já virou consenso interno: "automação não funciona pra gente".
+**Foto:** captura de painel de assinaturas com uso zerado
+**Destaques:** "4 em 10", "conclusão errada"
+**Fundo:** escuro
+**Palavras:** 63
 
-**Visual:** "4 em 10" como número dominante, texto de apoio embaixo
-**Palavras:** 21
+## Slide 3 — Problema
+**Headline:** O motivo quase nunca é técnico.
+**Apoio:** A ferramenta foi instalada em cima de um processo que ninguém tinha desenhado.
+Ela passou a executar rápido exatamente aquilo que já estava confuso — e confusão acelerada
+não vira eficiência, vira retrabalho com aparência de modernidade.
+**Foto:** engrenagem sobre linha tracejada quebrada
+**Destaques:** "nunca é técnico", "retrabalho"
+**Fundo:** claro
+**Palavras:** 52
 
-## Slide 3 — A causa
-> O motivo quase nunca é técnico.
->
-> É que a ferramenta foi instalada em cima de um processo que ninguém tinha desenhado.
+## Slide 4 — Problema
+**Headline:** Você automatizou o envio e continuou escrevendo tudo do zero.
+**Apoio:** É o erro mais comum: automatiza-se a etapa visível, que é mandar, e mantém-se
+manual a etapa cara, que é escrever. O gargalo nunca foi o envio. Por isso a sensação de
+ganho não aparece, mesmo com a ferramenta funcionando exatamente como prometido.
+**Foto:** duas colunas — "automatizado" e "ainda manual"
+**Destaques:** "etapa cara", "nunca foi o envio"
+**Fundo:** escuro
+**Palavras:** 57
 
-**Visual:** ícone de engrenagem sobre linha tracejada quebrada
-**Palavras:** 26
+## Slide 5 — Ponte
+**Headline:** Existe um jeito mais simples, e ele não começa comprando nada.
+**Apoio:** Começa separando o que se repete do que exige julgamento. Em orçamento isso
+costuma dividir em 80% de estrutura — escopo, prazos, condições, termos — e 20% de decisão
+real, que é onde está o seu valor. Só o primeiro bloco deve ser automatizado.
+**Destaques:** "não começa comprando nada", "80%"
+**Fundo:** acento
+**Palavras:** 61
 
-## Slide 4 — O que acontece na prática
-> Você automatiza o envio.
->
-> Mas continua escrevendo cada orçamento do zero.
->
-> O gargalo não era o envio.
+## Slide 6 — Solução
+**Headline:** Escreve os 3 passos que você repete toda semana.
+**Apoio:** Num papel, sem ferramenta aberta. Se couber em 3 passos, você tem um processo e
+pode automatizá-lo hoje. Se não couber, o que falta não é software — é desenho. Esse teste
+de cinco minutos evita a assinatura que vira prejuízo em três meses.
+**Foto:** lista numerada 1-2-3 com muito espaço em branco
+**Destaques:** "3 passos", "cinco minutos"
+**Fundo:** claro
+**Palavras:** 59
 
-**Visual:** duas colunas, "automatizado" e "ainda manual"
-**Palavras:** 24
+## Slide 7 — Síntese
+**Headline:** Automatizar um processo bagunçado não organiza a bagunça.
+**Apoio:** Só faz ela acontecer mais rápido. A tecnologia amplifica o que já existe — se o
+que existe é confusão, você compra confusão em escala. Desenhar primeiro é o passo chato
+que ninguém posta, e é o único que separa quem automatiza de quem só assina.
+**Destaques:** "mais rápido", "amplifica"
+**Fundo:** escuro
+**Palavras:** 60
 
-## Slide 5 — O teste
-> Antes de comprar qualquer coisa: escreve os 3 passos que você repete toda semana.
->
-> Se não couber em 3, não é hora de automatizar.
-
-**Visual:** lista numerada 1-2-3 com espaço em branco
-**Palavras:** 28
-
-## Slide 6 — Reflexão
-> Automatizar um processo bagunçado não organiza a bagunça.
->
-> Só faz ela acontecer mais rápido.
-
-**Visual:** frase centralizada, margem ampliada, sem elemento gráfico
-**Palavras:** 17
-
-## Slide 7 — CTA
-> Salva esse carrossel pra quando alguém te disser que o problema é falta de IA.
-
-**Visual:** fundo em verde sinal, texto em grafite, ícone de salvar
-**Palavras:** 15
-
-## Slide 8 — Assinatura
-> LAIA
-> Automação que roda de verdade.
-
-**Visual:** logo centralizado, fundo grafite
-**Palavras:** 6
+## Slide 8 — CTA
+**Headline:** Salva pra quando alguém te disser que o problema é falta de IA.
+**Apoio:** E se você já tentou automatizar e voltou pro manual, comenta em qual parte
+travou — é quase sempre o mesmo ponto, e comparar ajuda mais que qualquer lista de
+ferramenta.
+**Foto:** assinatura com logo
+**Destaques:** "falta de IA"
+**Fundo:** acento
+**Palavras:** 48
 ```
 
 **Por que funciona:** progressão real (afirmação → dado → causa → sintoma → teste →
-reflexão → ação); nenhum slide passa de 30 palavras; o dado tem lastro e a origem
+reflexão → ação); cada slide fica entre 40 e 80 palavras em duas camadas; o dado tem lastro e a origem
 internacional foi declarada na legenda; o CTA cita o tema em vez de pedir engajamento
 genérico.
 
@@ -154,7 +168,7 @@ carrossel, mesmo assunto e ângulo diferente.
 | Texto secundário | #A0A0B8 | derivado do grafite |
 
 **Escala:** capa 96px · título 72px · corpo 46px · rodapé 34px — Inter
-**Grid:** 1080×1350, margem 96px, logo inferior direito 120px, numeração inferior esquerda
+**Grid:** 1080×1440, margem 96px, logo inferior direito 120px, numeração inferior esquerda
 
 | Tipo de slide | Composição |
 |---|---|
@@ -184,15 +198,28 @@ Um designer diferente reproduziria o mesmo resultado a partir deste documento.
 São cinco **assuntos**, não cinco ângulos. O usuário perdeu a chance de escolher a lente, e
 o item do calendário — que era sobre orçamento — virou outra coisa.
 
-### Slide denso demais (erro da Fase 3.4)
+### Slide sem hierarquia e sem lastro (erro da Fase 3.4)
 
 ```
-> A automação de processos é uma das principais tendências para pequenas empresas em 2026,
-> e diversos estudos apontam que empresas que investem em automação conseguem reduzir
-> significativamente o tempo gasto em tarefas operacionais, permitindo que a equipe foque
-> em atividades de maior valor agregado para o negócio.
+**Headline:** A automação de processos é uma das principais tendências para pequenas
+empresas em 2026, e diversos estudos apontam que empresas que investem em automação
+conseguem reduzir significativamente o tempo gasto em tarefas operacionais, permitindo
+que a equipe foque em atividades de maior valor agregado para o negócio.
+**Apoio:** —
 ```
 
-52 palavras, quatro problemas: passa do limite; "diversos estudos" sem nomear nenhum;
-"significativamente" no lugar de número; "maior valor agregado" é corporativês. Sai
-ilegível na imagem e o leitor pula.
+52 palavras, dentro da faixa, e mesmo assim errado — quatro problemas: **tudo numa camada
+só**, sem headline e apoio (vira bloco cinza ilegível); "diversos estudos" sem nomear
+nenhum; "significativamente" no lugar de número; "maior valor agregado" é corporativês.
+
+Estar na faixa de palavras não basta: a faixa mede densidade, não qualidade.
+
+### Slide raso (o erro oposto, igualmente comum)
+
+```
+**Headline:** Automatize ou fique pra trás.
+**Apoio:** O futuro é agora.
+```
+
+9 palavras. Parece forte na tela e não ensina nada — não tem dado, não tem consequência,
+não dá ao leitor nenhum motivo para salvar. É por isso que o piso de 40 palavras existe.

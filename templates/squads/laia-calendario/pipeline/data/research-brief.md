@@ -95,7 +95,12 @@ este mês é a entrada de performance do mês seguinte.
 
 ---
 
-## 5. Referências internas do framework consultadas
+## 5. Referências internas do framework
+
+Os arquivos abaixo pertencem ao framework e são relevantes para este squad. Os marcados
+como **injetado** são carregados automaticamente pelo Pipeline Runner em tempo de execução,
+via o campo `format:` dos steps — e, em qualquer divergência com este squad, **eles
+prevalecem**.
 
 - `_opensquad/core/best-practices/strategist.md` — planejamento editorial e funil
 - `_opensquad/core/best-practices/researching.md` — disciplina de fonte, data e confiança

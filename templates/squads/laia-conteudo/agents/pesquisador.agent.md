@@ -8,7 +8,6 @@ execution: subagent
 skills:
   - web_search
   - web_fetch
-  - apify
 tasks:
   - tasks/pesquisar-fontes.md
   - tasks/mapear-saturacao.md

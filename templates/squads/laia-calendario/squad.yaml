@@ -27,7 +27,13 @@ client_registry: "_opensquad/_memory/clientes"
 skills:
   - web_search
   - web_fetch
-  - apify
+
+# Skills opcionais: melhoram o resultado, mas o squad roda sem elas.
+# NAO declarar em `skills:` — o Pipeline Runner aborta se uma skill MCP
+# listada ali nao estiver configurada. As tasks ja degradam para web_fetch.
+# Para ativar: configure o MCP e mova a skill para `skills:` acima.
+optional_skills:
+  - apify   # extracao estruturada de Instagram/LinkedIn (requer APIFY_TOKEN)
 
 data:
   - pipeline/data/research-brief.md

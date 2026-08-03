@@ -39,7 +39,7 @@ Carregar antes de executar:
    existir, seguir sem logo e registrar no relatório.
 
 3. **Executar `criar-slides-html`.** Um HTML autocontido por slide, sem nenhuma referência de
-   rede, com dimensões fixas: 1080×1350 para carrossel de Instagram, 1200×627 ou 1080×1080
+   rede, com dimensões fixas: 1080×1440 para carrossel de Instagram, 1200×627 ou 1080×1080
    para LinkedIn. O texto aprovado entra literal.
 
 4. **Se o texto não couber, ajustar o design — nunca o texto.** Reduzir o corpo dentro da
@@ -69,7 +69,7 @@ segue este template:
 | Papel | Hex | Origem |
 | Escala | {tamanhos} |
 
-## Carrossel Instagram (1080×1350)
+## Carrossel Instagram (1080×1440)
 | # | Arquivo | Dimensão | Status |
 
 ## Peça LinkedIn ({dimensão})
@@ -98,16 +98,16 @@ segue este template:
 | Texto secundário | #A0A0B8 | derivado do grafite |
 
 **Escala:** capa 96px · título 72px · corpo 46px · rodapé 34px — fonte Inter
-**Grid:** viewport 1080×1350, margem 96px, logo inferior direito 120px
+**Grid:** viewport 1080×1440, margem 96px, logo inferior direito 120px
 
-## Carrossel Instagram (1080×1350)
+## Carrossel Instagram (1080×1440)
 | # | Arquivo | Dimensão | Status |
 |---|---|---|---|
-| 1 | `output/slides/rendered/slide-01.png` | 1080×1350 | ok |
-| 2 | `output/slides/rendered/slide-02.png` | 1080×1350 | ok |
-| 3 | `output/slides/rendered/slide-03.png` | 1080×1350 | ok — re-renderizado |
-| 7 | `output/slides/rendered/slide-07.png` | 1080×1350 | ok |
-| 8 | `output/slides/rendered/slide-08.png` | 1080×1350 | ok |
+| 1 | `output/slides/rendered/slide-01.png` | 1080×1440 | ok |
+| 2 | `output/slides/rendered/slide-02.png` | 1080×1440 | ok |
+| 3 | `output/slides/rendered/slide-03.png` | 1080×1440 | ok — re-renderizado |
+| 7 | `output/slides/rendered/slide-07.png` | 1080×1440 | ok |
+| 8 | `output/slides/rendered/slide-08.png` | 1080×1440 | ok |
 
 ## Peça LinkedIn (1200×627)
 | Arquivo | Dimensão | Status |

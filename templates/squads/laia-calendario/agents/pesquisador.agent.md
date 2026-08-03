@@ -8,7 +8,6 @@ execution: subagent
 skills:
   - web_search
   - web_fetch
-  - apify
 tasks:
   - tasks/analisar-performance.md
   - tasks/pesquisar-contexto.md

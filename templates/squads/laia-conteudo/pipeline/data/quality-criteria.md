@@ -27,9 +27,12 @@ nota = (scroll_stop × 1,5 + aderencia + veracidade + estrutura + visual) / 5,5
 ## 2. Limites por formato
 
 ### Carrossel Instagram
-- [ ] Entre 6 e 10 slides
-- [ ] Máximo ~30 palavras e 5 linhas visíveis por slide
-- [ ] Slide 1 com o gancho aprovado, literal
+- [ ] Formato do carrossel declarado entre os sete canônicos, com o fluxo seguido
+- [ ] Entre 8 e 10 slides
+- [ ] Cada slide entre 40 e 80 palavras (headline + apoio), com contagem declarada
+- [ ] Hierarquia de duas camadas em todo slide; o apoio acrescenta, não repete
+- [ ] Fundos alternando (claro, escuro, acento) e destaques marcados
+- [ ] Slide 1 com o gancho aprovado, literal, em até 20 palavras
 - [ ] Uma ideia por slide, com progressão
 - [ ] Slide de reflexão antes do CTA
 - [ ] CTA específico e conectado ao tema
@@ -38,7 +41,7 @@ nota = (scroll_stop × 1,5 + aderencia + veracidade + estrutura + visual) / 5,5
 
 ### Post LinkedIn
 - [ ] Gancho aprovado, literal, na primeira linha
-- [ ] Três primeiras linhas ≤ ~200 caracteres, com sentido isoladas
+- [ ] Três primeiras linhas ≤ ~210 caracteres, com sentido isoladas
 - [ ] Abre com cena concreta, não com tese
 - [ ] Blocos de no máximo 3 linhas
 - [ ] Insight explícito antes do CTA
@@ -79,7 +82,7 @@ nota = (scroll_stop × 1,5 + aderencia + veracidade + estrutura + visual) / 5,5
 - [ ] Exatamente 3 por ângulo, de 3 tipos diferentes
 - [ ] Texto final, não esboço
 - [ ] Máximo de 2 linhas visíveis
-- [ ] Ganchos de LinkedIn ≤ ~200 caracteres
+- [ ] Ganchos de LinkedIn ≤ ~210 caracteres
 - [ ] Gancho de dado com número existente na pesquisa
 - [ ] Nenhuma palavra de `comunicacao.palavras_evitar`
 - [ ] Abertura visual e promessa preenchidas

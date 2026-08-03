@@ -85,9 +85,19 @@ conteúdo para quem vai abandoná-lo.
 **Sintoma:** o texto não corresponde ao que o usuário aprovou no checkpoint.
 **Correção:** o gancho entra literal. Ajuste, só via checkpoint 06.
 
-### 4.2 Slide com parágrafo
-**Sintoma:** corpo minúsculo na imagem; o leitor pula e a entrega dos slides seguintes cai.
-**Correção:** ~30 palavras por slide, contadas antes de fechar.
+### 4.2 Slide sem hierarquia de duas camadas
+**Sintoma:** bloco de texto todo do mesmo tamanho; o leitor pula e a entrega dos slides
+seguintes cai.
+**Correção:** headline em corpo grande + texto de apoio em corpo menor, 40-80 palavras
+somadas, contadas antes de fechar.
+
+### 4.2b Slide raso, abaixo de 40 palavras
+**Sintoma:** o carrossel é bonito, tem frases de efeito e ninguém salva — porque não entregou
+informação nenhuma.
+**Causa:** confundir concisão com profundidade. Frase solta parece forte na tela e não ensina
+nada.
+**Correção:** o texto de apoio precisa trazer dado, contexto ou consequência. Se o slide não
+chega a 40 palavras, é porque não tem conteúdo suficiente — não porque está "enxuto".
 
 ### 4.3 Slides sem progressão
 **Sintoma:** o carrossel podia terminar no slide 4 sem perda.
@@ -136,7 +146,7 @@ parar e reportar.
 
 ### 5.5 Dimensão errada
 **Sintoma:** o Instagram corta a imagem, geralmente decepando texto.
-**Correção:** 1080×1350 no carrossel; conferir cada PNG renderizado.
+**Correção:** 1080×1440 no carrossel; conferir cada PNG renderizado.
 
 ### 5.6 Renderizar sem inspecionar
 **Sintoma:** imagem em branco ou com texto transbordando chega à entrega.

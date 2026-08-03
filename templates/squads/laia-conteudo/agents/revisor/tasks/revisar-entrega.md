@@ -31,7 +31,8 @@ Veracidade é eliminatória.
    `palavras_evitar`; tom compatível com `tom_de_voz`; cores das imagens dentro de
    `visual.paleta`.
 
-4. **Eixo Estrutura do formato.** Carrossel: 6 a 10 slides, ≤30 palavras por slide, reflexão
+4. **Eixo Estrutura do formato.** Carrossel: formato declarado, 8 a 10 slides, 40-80
+   palavras por slide em duas camadas, síntese ou reflexão
    antes do CTA, CTA específico, legenda com 5-15 hashtags. LinkedIn: gancho antes do "ver
    mais", blocos ≤3 linhas, insight explícito, 3-5 hashtags.
 

@@ -98,7 +98,7 @@ o texto pronto para colar, com as hashtags no fim.
 ### Always Do
 
 1. **Contar os caracteres das três primeiras linhas.** Confirmar que o gancho cabe antes do
-   corte, que ocorre por volta de 200 caracteres.
+   corte, que ocorre por volta de 210 caracteres.
 2. **Nomear números e ferramentas.** É o que diferencia autoridade de opinião no contexto
    profissional.
 3. **Sugerir a imagem ou o PDF de apoio.** O post precisa de peça visual, e a sugestão vem
@@ -107,7 +107,7 @@ o texto pronto para colar, com as hashtags no fim.
 ## Quality Criteria
 
 - [ ] Gancho aprovado, literal, na primeira linha
-- [ ] As três primeiras linhas cabem em ~200 caracteres e fazem sentido isoladas
+- [ ] As três primeiras linhas cabem em ~210 caracteres e fazem sentido isoladas
 - [ ] Estrutura completa: gancho → contexto → desenvolvimento → insight → CTA
 - [ ] Nenhum bloco com mais de 3 linhas
 - [ ] Todo dado citado existe no relatório de pesquisa, com fonte

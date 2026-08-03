@@ -25,7 +25,7 @@ publicação:
 Sistema visual aplicado:
 Fundo {hex} · Texto {hex} · Destaque {hex} · Fonte {nome}
 
---- Carrossel ({N} slides, 1080×1350) ---
+--- Carrossel ({N} slides, 1080×1440) ---
 {apresentar cada imagem na ordem, com o resumo do slide}
 
 --- LinkedIn ({dimensão}) ---

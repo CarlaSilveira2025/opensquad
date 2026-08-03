@@ -81,7 +81,7 @@ consistência — carrossel com slides visualmente diferentes parece amador.
 ```markdown
 # Sistema Visual — O orçamento que você reescreve 20 vezes por semana
 
-**Cliente:** laia · **Peças:** 8 slides IG (1080×1350) + 1 peça LinkedIn (1200×627)
+**Cliente:** laia · **Peças:** 8 slides IG (1080×1440) + 1 peça LinkedIn (1200×627)
 
 ## Papéis de cor
 | Papel | Hex | Origem no perfil |
@@ -102,7 +102,7 @@ consistência — carrossel com slides visualmente diferentes parece amador.
 | Rodapé | 34px | 500 | Inter |
 
 ## Grid
-- Viewport: 1080×1350px
+- Viewport: 1080×1440px
 - Margem externa: 96px em todos os lados
 - Alinhamento: texto à esquerda, bloco centralizado verticalmente
 - Logo: canto inferior direito, 120px de largura, apenas na capa e no slide final

@@ -38,7 +38,7 @@ Carregar antes de executar:
    pesquisa, com a mesma grandeza e o mesmo recorte. Número aproximado ou arredondado para
    soar melhor é violação.
 
-4. **Contar caracteres nos ganchos de LinkedIn.** Precisam caber em ~200 caracteres, antes do
+4. **Contar caracteres nos ganchos de LinkedIn.** Precisam caber em ~210 caracteres, antes do
    corte do "ver mais", e fazer sentido isolados.
 
 5. **Conferir `palavras_evitar`.** É a frase mais visível do conteúdo; nenhuma palavra
@@ -123,7 +123,7 @@ Rejeitar e refazer se qualquer uma for verdadeira:
 2. Dois ou mais ganchos do mesmo ângulo são do mesmo tipo
 3. Algum gancho de dado cita número que não existe no relatório de pesquisa
 4. Algum gancho contém palavra de `comunicacao.palavras_evitar`
-5. Algum gancho de LinkedIn passa de ~200 caracteres
+5. Algum gancho de LinkedIn passa de ~210 caracteres
 6. Alguma promessa não pode ser cumprida pelo ângulo correspondente
 
 ## Quality Criteria

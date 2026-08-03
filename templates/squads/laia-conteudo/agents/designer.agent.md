@@ -23,7 +23,7 @@ tasks:
 Responsável pela Fase 3.5. Converte o texto aprovado em imagens prontas para postar,
 respeitando a identidade visual do perfil: paleta em hex, tipografia, logo, estilo de imagem
 e elementos gráficos. Produz cada slide como HTML/CSS e renderiza via Playwright nas
-dimensões corretas — 1080×1350 para o carrossel de Instagram, 1200×627 ou 1080×1080 para a
+dimensões corretas — 1080×1440 para o carrossel de Instagram, 1200×627 ou 1080×1080 para a
 peça de LinkedIn. Não altera o texto aprovado: o que foi ao checkpoint é o que vai na imagem.
 
 ### Identity
@@ -115,7 +115,7 @@ adjetivos. Ao entregar, informa o caminho de cada arquivo renderizado e as dimen
 - [ ] Nenhuma palavra do texto aprovado foi cortada ou alterada
 - [ ] Nenhuma fonte abaixo de 32px em peça de 1080px de largura
 - [ ] Contraste verificado em todos os slides
-- [ ] Dimensões corretas: 1080×1350 (carrossel IG), 1200×627 ou 1080×1080 (LinkedIn)
+- [ ] Dimensões corretas: 1080×1440 (carrossel IG), 1200×627 ou 1080×1080 (LinkedIn)
 - [ ] Logo presente na capa e no slide final, quando `visual.logo` existe
 - [ ] Um elemento dominante por slide
 - [ ] Todos os arquivos renderizados listados com caminho e dimensão

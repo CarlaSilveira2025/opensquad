@@ -16,7 +16,7 @@ confere o resultado antes de entregar.
 ## Process
 
 1. **Renderizar cada arquivo HTML** com a skill `image-creator`, passando a viewport exata:
-   1080×1350 para carrossel de Instagram, 1200×627 ou 1080×1080 para LinkedIn. Salvar em
+   1080×1440 para carrossel de Instagram, 1200×627 ou 1080×1080 para LinkedIn. Salvar em
    `output/slides/rendered/` com o mesmo nome-base do HTML.
 
 2. **Conferir cada PNG gerado.** Verificar que a imagem existe, tem as dimensões esperadas e
@@ -43,7 +43,7 @@ confere o resultado antes de entregar.
 
 **Peças renderizadas:** {N} de {N}
 
-## Carrossel Instagram (1080×1350)
+## Carrossel Instagram (1080×1440)
 | # | Arquivo | Dimensão | Status |
 
 ## Peça LinkedIn ({dimensão})
@@ -70,15 +70,15 @@ confere o resultado antes de entregar.
 
 **Peças renderizadas:** 9 de 9
 
-## Carrossel Instagram (1080×1350)
+## Carrossel Instagram (1080×1440)
 | # | Arquivo | Dimensão | Status |
 |---|---|---|---|
-| 1 | `output/slides/rendered/slide-01.png` | 1080×1350 | ok |
-| 2 | `output/slides/rendered/slide-02.png` | 1080×1350 | ok |
-| 3 | `output/slides/rendered/slide-03.png` | 1080×1350 | ok — re-renderizado |
-| 6 | `output/slides/rendered/slide-06.png` | 1080×1350 | ok |
-| 7 | `output/slides/rendered/slide-07.png` | 1080×1350 | ok |
-| 8 | `output/slides/rendered/slide-08.png` | 1080×1350 | ok |
+| 1 | `output/slides/rendered/slide-01.png` | 1080×1440 | ok |
+| 2 | `output/slides/rendered/slide-02.png` | 1080×1440 | ok |
+| 3 | `output/slides/rendered/slide-03.png` | 1080×1440 | ok — re-renderizado |
+| 6 | `output/slides/rendered/slide-06.png` | 1080×1440 | ok |
+| 7 | `output/slides/rendered/slide-07.png` | 1080×1440 | ok |
+| 8 | `output/slides/rendered/slide-08.png` | 1080×1440 | ok |
 
 ## Peça LinkedIn (1200×627)
 | Arquivo | Dimensão | Status |

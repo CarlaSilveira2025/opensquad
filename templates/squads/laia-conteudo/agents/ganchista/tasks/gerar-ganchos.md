@@ -25,7 +25,7 @@ texto final — vai literal para o slide 1 ou para a primeira linha do post.
    uma opção só.
 
 3. **Escrever o texto exato de cada um.** Pronto para publicação, sem "algo como". Máximo de
-   2 linhas visíveis. Para LinkedIn, conferir que cabe em ~200 caracteres, antes do "ver mais".
+   2 linhas visíveis. Para LinkedIn, conferir que cabe em ~210 caracteres, antes do "ver mais".
 
 4. **Conferir os números.** Todo gancho do tipo dado usa número que existe no relatório de
    pesquisa, com a mesma grandeza e o mesmo recorte.
@@ -115,7 +115,7 @@ ganchos_por_angulo:
 - [ ] Os 3 são de tipos diferentes entre os 5 canônicos
 - [ ] Texto exato, pronto para publicar, sem esboço
 - [ ] Nenhum gancho passa de 2 linhas visíveis
-- [ ] Ganchos de LinkedIn com contagem de caracteres ≤ ~200
+- [ ] Ganchos de LinkedIn com contagem de caracteres ≤ ~210
 - [ ] Todo gancho de dado usa número presente na pesquisa
 - [ ] Nenhuma palavra de `comunicacao.palavras_evitar`
 - [ ] Abertura visual e promessa preenchidas em todos
@@ -127,5 +127,5 @@ Rejeitar e refazer se:
 1. Dois ou mais ganchos do mesmo ângulo são do mesmo tipo
 2. Algum gancho cita número que não existe no relatório de pesquisa
 3. Algum gancho contém palavra da lista de proibidas do perfil
-4. Algum gancho de LinkedIn passa de 200 caracteres
+4. Algum gancho de LinkedIn passa de 210 caracteres
 5. Alguma promessa não pode ser cumprida pelo ângulo correspondente

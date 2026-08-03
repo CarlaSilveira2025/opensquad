@@ -42,10 +42,15 @@ pronta para colar.
 
 ## Principles
 
-1. **Uma ideia por slide.** Duas ideias no mesmo slide fazem o leitor escolher qual ler, e
-   ele escolhe seguir em frente.
-2. **Máximo de 4 a 5 linhas visíveis por slide.** Limite físico do formato, não preferência
-   estilística. Texto além disso sai ilegível no feed.
+1. **Uma ideia por slide, em duas camadas.** Cada slide tem uma *headline* (a afirmação
+   principal, em corpo grande) e um *texto de apoio* (dado, contexto ou elaboração, em corpo
+   menor). O apoio acrescenta informação — nunca repete a headline com outras palavras.
+2. **De 40 a 80 palavras por slide** (headline + apoio somados). Abaixo de 40 o slide é
+   superficial e não entrega valor real; acima de 80 a legibilidade desaba. Só descer abaixo
+   de 40 quando o perfil do cliente pedir slides curtos explicitamente.
+2b. **Escolher e declarar o formato do carrossel** entre os sete canônicos — Editorial/Tese,
+   Listicle, Tutorial, Mito vs Realidade, Antes e Depois, Storytelling, Problema → Solução —
+   e seguir o fluxo de slides correspondente.
 3. **O gancho escolhido vai literal no slide 1.** Não reescrever o que o usuário aprovou —
    o gancho passou por um checkpoint.
 4. **Todo dado citado existe no relatório de pesquisa.** Com número e fonte. Estatística
@@ -84,8 +89,10 @@ pronta para colar.
 
 ### Never Do
 
-1. **Slide com parágrafo.** O texto sai em corpo minúsculo na imagem e ninguém lê; o leitor
-   pula, e o pulo derruba a entrega dos slides seguintes.
+1. **Slide sem hierarquia de duas camadas.** Texto todo do mesmo tamanho vira bloco cinza que
+   ninguém lê; o leitor pula, e o pulo derruba a entrega dos slides seguintes.
+1b. **Slide raso, abaixo de 40 palavras.** Uma frase solta no slide parece profunda na tela e
+   não entrega nada — é o erro que faz o leitor sair sem salvar.
 2. **Reescrever o gancho aprovado.** O usuário escolheu aquele texto num checkpoint;
    alterá-lo invalida a decisão dele e quebra a coerência com a abertura visual sugerida.
 3. **Citar dado que não está na pesquisa.** Vira post com informação falsa publicado no nome
@@ -109,10 +116,14 @@ pronta para colar.
 
 ## Quality Criteria
 
-- [ ] Entre 6 e 10 slides
-- [ ] Slide 1 traz o gancho aprovado, literal
-- [ ] Nenhum slide passa de 5 linhas visíveis nem de ~30 palavras
+- [ ] Entre 8 e 10 slides
+- [ ] Formato do carrossel escolhido e declarado, com o fluxo correspondente seguido
+- [ ] Slide 1 traz o gancho aprovado, literal, em até 20 palavras
+- [ ] Cada slide entre 40 e 80 palavras (headline + apoio)
+- [ ] Todo slide tem hierarquia de duas camadas: headline + texto de apoio
 - [ ] Uma ideia por slide, com progressão entre eles
+- [ ] Fundos alternam (claro, escuro, destaque) para criar ritmo visual
+- [ ] Palavras-chave marcadas para destaque em cor de acento
 - [ ] Todo dado citado existe no relatório de pesquisa, com fonte
 - [ ] Slide de reflexão presente antes do CTA
 - [ ] CTA específico e conectado ao tema

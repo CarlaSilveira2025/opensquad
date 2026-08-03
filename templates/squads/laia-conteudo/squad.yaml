@@ -35,9 +35,15 @@ formats_planned:
 skills:
   - web_search
   - web_fetch
-  - apify
-  - image-creator
-  - image-fetcher
+  - image-creator    # usa o MCP playwright, ja configurado em .mcp.json
+  - image-fetcher    # usa o MCP playwright, ja configurado em .mcp.json
+
+# Skills opcionais: melhoram o resultado, mas o squad roda sem elas.
+# NAO declarar em `skills:` — o Pipeline Runner aborta se uma skill MCP
+# listada ali nao estiver configurada. As tasks ja degradam para web_fetch.
+# Para ativar: configure o MCP e mova a skill para `skills:` acima.
+optional_skills:
+  - apify   # extracao estruturada de Instagram/LinkedIn (requer APIFY_TOKEN)
 
 data:
   - pipeline/data/research-brief.md

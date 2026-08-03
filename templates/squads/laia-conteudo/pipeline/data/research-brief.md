@@ -44,6 +44,14 @@ Carrossel (6-10 slides com texto exato por slide, legenda e indicação visual),
 squads de conteúdo. Isso permite que rodem em paralelo e que cada um receba a injeção
 automática do arquivo de best-practice da plataforma.
 
+**Divergência reconciliada:** o escopo v3 pede "6-10 slides"; o `instagram-feed.md` do
+framework — que é injetado em tempo de execução — especifica 8-10 slides e **40-80 palavras
+por slide em duas camadas** (headline + apoio). A primeira versão deste squad usava um teto
+de 30 palavras por slide, o que criava um conflito irreconciliável: o veto do step rejeitava
+exatamente o que a plataforma exige, travando o pipeline em loop. Prevaleceu o arquivo
+injetado. Quando um perfil de cliente pedir slides curtos, a exceção é registrada no próprio
+carrossel e o veto a respeita.
+
 ### Fase 3.5 — Criação Visual
 Slides individuais respeitando logo, cores, fontes e estilo do perfil, com texto sobreposto
 legível e hierarquia clara.
@@ -98,11 +106,16 @@ já distribui ângulos diferentes para formatos diferentes.
 
 ---
 
-## 5. Referências internas do framework consultadas
+## 5. Referências internas do framework
+
+Os arquivos abaixo pertencem ao framework e são relevantes para este squad. Os marcados
+como **injetado** são carregados automaticamente pelo Pipeline Runner em tempo de execução,
+via o campo `format:` dos steps — e, em qualquer divergência com este squad, **eles
+prevalecem**.
 
 - `_opensquad/core/best-practices/copywriting.md` — ganchos, CTA, estrutura persuasiva
-- `_opensquad/core/best-practices/instagram-feed.md` — injetado no step 07
-- `_opensquad/core/best-practices/linkedin-post.md` — injetado no step 08
+- `_opensquad/core/best-practices/instagram-feed.md` — **injetado** no step 07 (autoridade sobre o formato do carrossel: 8-10 slides, 40-80 palavras por slide em duas camadas, 1080×1440)
+- `_opensquad/core/best-practices/linkedin-post.md` — **injetado** no step 08 (autoridade sobre o formato: gancho em ~210 caracteres, 3-5 insights, sem link no corpo)
 - `_opensquad/core/best-practices/researching.md` — disciplina de fonte, data e confiança
 - `_opensquad/core/best-practices/image-design.md` — geração de HTML/CSS para render
 - `_opensquad/core/best-practices/review.md` — veredito com nota por eixo

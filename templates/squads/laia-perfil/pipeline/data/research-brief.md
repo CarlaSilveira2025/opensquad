@@ -75,7 +75,12 @@ permite a resposta `manter` em atualizações parciais.
 
 ---
 
-## 6. Referências internas do framework consultadas
+## 5. Referências internas do framework
+
+Os arquivos abaixo pertencem ao framework e são relevantes para este squad. Os marcados
+como **injetado** são carregados automaticamente pelo Pipeline Runner em tempo de execução,
+via o campo `format:` dos steps — e, em qualquer divergência com este squad, **eles
+prevalecem**.
 
 - `_opensquad/core/best-practices/strategist.md` — planejamento editorial e segmentação
 - `_opensquad/core/best-practices/copywriting.md` — vocabulário de dor, oferta e prova social

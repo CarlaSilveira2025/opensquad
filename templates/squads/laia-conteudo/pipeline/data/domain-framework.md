@@ -61,27 +61,57 @@ estranheza, são o mesmo ângulo.**
 | **Contraintuitivo** | contraria o senso comum | "Você não tem problema de ferramenta." |
 
 **Regra:** 3 ganchos por ângulo, os 3 de tipos diferentes. Máximo de 2 linhas visíveis. No
-LinkedIn, ~200 caracteres — o corte do "ver mais".
+LinkedIn, ~210 caracteres — o corte do "ver mais".
 
 ---
 
 ## 4. Estrutura por formato (Fase 3.4)
 
-### Carrossel Instagram — 6 a 10 slides
+### Carrossel Instagram — 8 a 10 slides
+
+> **Autoridade:** `_opensquad/core/best-practices/instagram-feed.md`, injetado
+> automaticamente pelo Runner no step de criação. Em qualquer divergência, ele prevalece.
 
 | Slide | Função | Limite |
 |---|---|---|
-| 1 | Capa com o gancho aprovado, literal | ~30 palavras |
-| 2 a N-2 | Desenvolvimento, uma ideia por slide, em progressão | ~30 palavras cada |
-| N-1 | Reflexão — implicação, pergunta ou virada | ~30 palavras |
-| N | CTA específico + assinatura com logo | ~30 palavras |
+| 1 | Capa com o gancho aprovado, literal | até 20 palavras |
+| 2 a N-2 | Desenvolvimento, uma ideia por slide, em progressão | 40-80 palavras cada |
+| N-1 | Síntese ou reflexão — implicação, pergunta ou virada | 40-80 palavras |
+| N | CTA específico + assinatura com logo | 40-80 palavras |
+
+**Hierarquia de duas camadas obrigatória** em todo slide de conteúdo:
+*headline* (afirmação principal, corpo grande) + *texto de apoio* (dado, contexto ou
+elaboração, corpo menor). O apoio acrescenta informação; se só reformula a headline, o
+slide está raso.
+
+**Faixa de 40 a 80 palavras** por slide, somando headline e apoio. Abaixo de 40 o slide é
+superficial; acima de 80 a legibilidade desaba. Exceção única: o perfil do cliente pedir
+slides curtos explicitamente — e a exceção precisa ser registrada no arquivo do carrossel.
+
+#### Os sete formatos canônicos de carrossel
+
+| Formato | Quando usar | Lente do ângulo que combina |
+|---|---|---|
+| **Editorial / Tese** | argumentar uma tese com evidência | numeros, revelador |
+| **Listicle** | valor escaneável e numerado | passo-a-passo |
+| **Tutorial** | ensinar um processo | passo-a-passo |
+| **Mito vs Realidade** | derrubar crenças equivocadas | contraintuitivo, erro-comum |
+| **Antes e Depois** | mostrar transformação | historia |
+| **Storytelling** | conexão emocional | historia |
+| **Problema → Solução** | endereçar dor e apresentar saída | pergunta-incomoda, contraintuitivo |
+
+O formato é escolhido e **declarado** no topo do arquivo, e o fluxo de slides dele é seguido.
+
+Outras regras do formato: fundos alternando entre claro, escuro e acento para criar ritmo;
+palavras-chave marcadas para destaque em cor de acento; legenda com os primeiros 125
+caracteres funcionando sozinhos; 5-15 hashtags; **nunca link na legenda**.
 
 Legenda como peça própria: retoma o gancho, expande o contexto, repete o CTA, 5-15 hashtags.
 
 ### Post LinkedIn
 
 ```
-Gancho (1ª linha, ~200 caracteres — antes do "ver mais")
+Gancho (1ª linha, ~210 caracteres — antes do "ver mais")
 ↓
 Contexto — cena concreta, não tese
 ↓
@@ -102,7 +132,7 @@ CTA específico
 
 | Peça | Viewport |
 |---|---|
-| Carrossel Instagram | 1080×1350 |
+| Carrossel Instagram | 1080×1440 |
 | Post/Feed quadrado | 1080×1080 |
 | LinkedIn imagem única | 1200×627 |
 

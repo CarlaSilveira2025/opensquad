@@ -23,7 +23,7 @@ entra sem nenhuma alteração.
    referência externa — sem CDN, sem fonte remota, sem imagem por URL. Fontes por
    `font-family` com fallback de sistema; imagens locais por caminho relativo ou data URI.
 
-3. **Fixar as dimensões no `body`**: 1080×1350px para carrossel de Instagram, 1200×627px ou
+3. **Fixar as dimensões no `body`**: 1080×1440px para carrossel de Instagram, 1200×627px ou
    1080×1080px para LinkedIn. Usar `box-sizing: border-box` e `overflow: hidden` para que
    nada vaze da viewport.
 
@@ -52,7 +52,7 @@ Um arquivo HTML por slide, com esta estrutura:
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    width: 1080px; height: 1350px;
+    width: 1080px; height: 1440px;
     background: {hex do fundo};
     font-family: '{fonte}', system-ui, sans-serif;
     padding: {margem}px;
@@ -83,7 +83,7 @@ Um arquivo HTML por slide, com esta estrutura:
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    width: 1080px; height: 1350px;
+    width: 1080px; height: 1440px;
     background: #1A1A2E;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     padding: 96px;

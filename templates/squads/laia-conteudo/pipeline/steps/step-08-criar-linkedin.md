@@ -42,7 +42,7 @@ O Pipeline Runner injeta automaticamente o formato `linkedin-post` de
 ### Process
 
 1. **Colocar o gancho aprovado literal na primeira linha** e conferir que as três primeiras
-   linhas cabem em ~200 caracteres — é o que aparece antes do "ver mais".
+   linhas cabem em ~210 caracteres — é o que aparece antes do "ver mais".
 
 2. **Abrir com cena concreta**, não com tese. A conclusão vem depois que o leitor se
    reconheceu na situação.
@@ -69,7 +69,7 @@ O Pipeline Runner injeta automaticamente o formato `linkedin-post` de
 # Post LinkedIn — {assunto}
 
 **Ângulo:** {título} · **Gancho:** {id}
-**Primeiras 3 linhas:** {caracteres} (limite ~200)
+**Primeiras 3 linhas:** {caracteres} (limite ~210)
 
 ## Texto
 
@@ -90,7 +90,7 @@ O Pipeline Runner injeta automaticamente o formato `linkedin-post` de
 # Post LinkedIn — O orçamento que você reescreve 20 vezes por semana
 
 **Ângulo:** Os 20% que ninguém resolve · **Gancho:** 3c
-**Primeiras 3 linhas:** 104 caracteres (limite ~200)
+**Primeiras 3 linhas:** 104 caracteres (limite ~210)
 
 ## Texto
 

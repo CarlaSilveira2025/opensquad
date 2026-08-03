@@ -19,7 +19,7 @@ Escreve o post longo de LinkedIn na estrutura gancho → contexto → desenvolvi
 ## Process
 
 1. **Ler o gancho aprovado para LinkedIn.** Ele ocupa a primeira linha, literal. Conferir que
-   cabe em ~200 caracteres — é o que aparece antes do "ver mais".
+   cabe em ~210 caracteres — é o que aparece antes do "ver mais".
 
 2. **Abrir com cena, não com tese.** Depois do gancho, uma situação concreta em que o leitor
    se reconheça. A conclusão vem depois, quando ele já está dentro do texto.
@@ -30,14 +30,20 @@ Escreve o post longo de LinkedIn na estrutura gancho → contexto → desenvolvi
 4. **Usar especificidade.** Número, nome de ferramenta, prazo, valor. "De 2 dias para 4
    minutos" vale mais que "reduzimos bastante o tempo".
 
-5. **Escrever o insight explícito** antes do CTA: a frase que o leitor levaria para uma
-   reunião. Sem ela, o post é descrição e não é compartilhado.
+5. **Escrever de 3 a 5 insights acionáveis**, numerados ou em bullets. É o núcleo
+   salvável do post — o que o leitor levaria para uma reunião.
 
-6. **Fechar com CTA específico.** Pergunta que convida a uma resposta concreta, ou convite
-   ligado à oferta quando o item for de fundo de funil.
+5b. **Primeira pessoa é obrigatória.** "Eu testei", "eu perdi", "eu medi" superam "as
+   empresas devem". História pessoal supera conselho genérico no LinkedIn.
 
-7. **Adicionar 3 a 5 hashtags** ao final e sugerir a peça visual — imagem única ou carrossel
-   em PDF, com descrição do conteúdo dela.
+5c. **Nunca colocar link no corpo do post.** O algoritmo reduz o alcance em cerca de 3x.
+   Se houver link, indicar "link nos comentários".
+
+6. **Fechar com takeaway de uma linha e uma pergunta genuína** — específica, que o leitor
+   possa responder pela própria experiência. Nunca "o que vocês acham?".
+
+7. **Adicionar 3 a 5 hashtags** na última linha, separadas do corpo, e sugerir a peça visual
+   — imagem única ou carrossel em PDF (10-15 slides, 20-30 palavras por slide).
 
 8. **Escrever texto distinto do carrossel**, mesmo que o ângulo seja o mesmo. Copiar slides
    produz post picotado e sem fluxo.
@@ -48,7 +54,7 @@ Escreve o post longo de LinkedIn na estrutura gancho → contexto → desenvolvi
 # Post LinkedIn — {assunto}
 
 **Ângulo:** {título} · **Gancho:** {id}
-**Primeiras 3 linhas:** {contagem de caracteres} (limite ~200)
+**Primeiras 3 linhas:** {contagem de caracteres} (limite ~210)
 
 ## Texto
 
@@ -71,7 +77,7 @@ Escreve o post longo de LinkedIn na estrutura gancho → contexto → desenvolvi
 # Post LinkedIn — O orçamento que você reescreve 20 vezes por semana
 
 **Ângulo:** Os 20% que ninguém resolve · **Gancho:** 3c
-**Primeiras 3 linhas:** 104 caracteres (limite ~200)
+**Primeiras 3 linhas:** 104 caracteres (limite ~210)
 
 ## Texto
 
@@ -111,7 +117,7 @@ Quem tentou automatizar orçamento e voltou pro manual: em qual parte travou?
 ## Quality Criteria
 
 - [ ] Gancho aprovado, literal, na primeira linha
-- [ ] Três primeiras linhas ≤ ~200 caracteres e com sentido isoladas
+- [ ] Três primeiras linhas ≤ ~210 caracteres e com sentido isoladas
 - [ ] Estrutura completa: gancho → contexto → desenvolvimento → insight → CTA
 - [ ] Nenhum bloco com mais de 3 linhas
 - [ ] Números e nomes específicos presentes
