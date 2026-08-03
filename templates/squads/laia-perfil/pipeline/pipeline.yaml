@@ -1,0 +1,125 @@
+name: "Pipeline — LAIA Perfil do Cliente"
+version: "1.0.0"
+created: "2026-08-02"
+squad: "laia-perfil"
+
+description: >
+  Coleta em 5 blocos temáticos, consolidação inteligente com detecção de lacunas,
+  estruturação em perfil.json + brand-book.md, validação e publicação no registro
+  de clientes. 8 checkpoints garantem que nada é inventado pelo sistema.
+
+mode: "alta-performance"
+max_review_cycles: 2
+
+steps:
+  - id: step-01
+    name: "Identificação do Cliente"
+    type: checkpoint
+    file: steps/step-01-identificar-cliente.md
+
+  - id: step-02
+    name: "Bloco 1 — Identidade"
+    type: checkpoint
+    file: steps/step-02-bloco-identidade.md
+    depends_on: step-01
+
+  - id: step-03
+    name: "Bloco 2 — Público-Alvo"
+    type: checkpoint
+    file: steps/step-03-bloco-publico.md
+    depends_on: step-02
+
+  - id: step-04
+    name: "Bloco 3 — Comunicação"
+    type: checkpoint
+    file: steps/step-04-bloco-comunicacao.md
+    depends_on: step-03
+
+  - id: step-05
+    name: "Bloco 4 — Objetivos"
+    type: checkpoint
+    file: steps/step-05-bloco-objetivos.md
+    depends_on: step-04
+
+  - id: step-06
+    name: "Bloco 5 — Assets Visuais"
+    type: checkpoint
+    file: steps/step-06-bloco-assets.md
+    depends_on: step-05
+
+  - id: step-07
+    name: "Consolidação e Detecção de Lacunas"
+    type: agent
+    agent: entrevistador
+    tasks:
+      - consolidar-briefing
+      - detectar-lacunas
+    file: steps/step-07-consolidar.md
+    depends_on: step-06
+
+  - id: step-08
+    name: "Preenchimento de Lacunas"
+    type: checkpoint
+    file: steps/step-08-preencher-lacunas.md
+    depends_on: step-07
+
+  - id: step-09
+    name: "Estruturação do Perfil"
+    type: agent
+    agent: perfilador
+    tasks:
+      - estruturar-perfil
+      - gerar-brand-book
+    file: steps/step-09-estruturar-perfil.md
+    depends_on: step-08
+
+  - id: step-10
+    name: "Validação do Perfil"
+    type: agent
+    agent: revisor
+    tasks:
+      - validar-perfil
+    file: steps/step-10-validar-perfil.md
+    depends_on: step-09
+    on_reject: step-09
+
+  - id: step-11
+    name: "Aprovação do Perfil"
+    type: checkpoint
+    file: steps/step-11-aprovar-perfil.md
+    depends_on: step-10
+
+  - id: step-12
+    name: "Publicação no Registro de Clientes"
+    type: agent
+    agent: perfilador
+    tasks:
+      - publicar-perfil
+    file: steps/step-12-publicar-perfil.md
+    depends_on: step-11
+
+checkpoints:
+  - step-01  # Cliente: novo ou atualização
+  - step-02  # Identidade
+  - step-03  # Público-alvo
+  - step-04  # Comunicação
+  - step-05  # Objetivos
+  - step-06  # Assets visuais
+  - step-08  # Lacunas detectadas
+  - step-11  # Aprovação final antes de publicar
+
+output:
+  artifacts:
+    - output/cliente.md
+    - output/respostas/identidade.md
+    - output/respostas/publico.md
+    - output/respostas/comunicacao.md
+    - output/respostas/objetivos.md
+    - output/respostas/assets.md
+    - output/briefing-consolidado.md
+    - output/lacunas.md
+    - output/respostas/lacunas-respondidas.md
+    - output/perfil.json
+    - output/brand-book.md
+    - output/validacao-perfil.md
+    - output/publicacao-report.md

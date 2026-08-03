@@ -1,0 +1,69 @@
+name: "LAIA — Calendário Editorial"
+code: "laia-calendario"
+description: >
+  Camada 2 do sistema LAIA de produção de conteúdo. Lê o perfil do cliente, pesquisa
+  tendências do nicho, datas sazonais e movimento dos concorrentes, analisa a performance
+  do mês anterior e monta o calendário editorial mensal completo com distribuição de funil
+  (topo 40% / meio 35% / fundo 25%). Entrega o calendário aprovado e a planilha de controle.
+icon: "🗓️"
+version: "1.0.0"
+created: "2026-08-02"
+mode: "alta-performance"
+
+company: "_opensquad/_memory/company.md"
+preferences: "_opensquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+layer: "2-planejamento"
+phases: ["2.1", "2.2"]
+cadence: "mensal"
+requires:
+  - laia-perfil
+consumers:
+  - laia-conteudo
+
+client_registry: "_opensquad/_memory/clientes"
+
+skills:
+  - web_search
+  - web_fetch
+
+# Skills opcionais: melhoram o resultado, mas o squad roda sem elas.
+# NAO declarar em `skills:` — o Pipeline Runner aborta se uma skill MCP
+# listada ali nao estiver configurada. As tasks ja degradam para web_fetch.
+# Para ativar: configure o MCP e mova a skill para `skills:` acima.
+optional_skills:
+  - apify   # extracao estruturada de Instagram/LinkedIn (requer APIFY_TOKEN)
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+
+agents:
+  - id: pesquisador
+    name: "Tiago Tendência"
+    icon: "🔍"
+    file: agents/pesquisador.agent.md
+
+  - id: estrategista
+    name: "Estela Estratégia"
+    icon: "🗓️"
+    file: agents/estrategista.agent.md
+
+  - id: revisor
+    name: "Vera Veredito"
+    icon: "✅"
+    file: agents/revisor.agent.md
+
+  - id: controlador
+    name: "Cláudia Controle"
+    icon: "📋"
+    file: agents/controlador.agent.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

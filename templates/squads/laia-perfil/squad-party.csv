@@ -1,0 +1,4 @@
+id,name,icon,role,path,execution,skills
+entrevistador,Otávio Onboarding,🎤,"Conduz o questionário inteligente por blocos, consolida as respostas e detecta lacunas que impedem a produção de conteúdo",./agents/entrevistador.agent.md,inline,"web_search,web_fetch"
+perfilador,Priscila Perfil,🗂️,"Transforma o briefing consolidado em perfil.json estruturado e brand-book.md legível, e publica no registro de clientes",./agents/perfilador.agent.md,inline,
+revisor,Renata Revisão,✅,Valida completude e consistência do perfil contra a checklist de campos obrigatórios antes da publicação,./agents/revisor.agent.md,inline,
